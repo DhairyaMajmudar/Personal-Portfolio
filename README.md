@@ -15,7 +15,7 @@ npm i
 npm run dev
 ```
 
-**PS: Don't forget to star the repo (right most button) it motivates me to make more such websites.**
+**PS: Don't forget to star the repo (top right most button) it motivates me to make more such websites.**
 
 
 
