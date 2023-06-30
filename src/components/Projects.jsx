@@ -1,5 +1,11 @@
 import Project_prop from "./project_prop";
-import { GPT4, Portfolio, Rocket, WellBeing, Game } from "../constants/Constant";
+import {
+  GPT4,
+  Portfolio,
+  Rocket,
+  WellBeing,
+  Game,
+} from "../constants/Constant";
 import Tooltip from "@mui/material/Tooltip";
 import IconButton from "@mui/material/IconButton";
 import AOS from "aos";
@@ -12,7 +18,6 @@ import {
   SiHtml5,
   SiCss3,
   SiJavascript,
-  SiMui,
 } from "react-icons/si";
 
 const Projects = () => {
@@ -60,15 +65,6 @@ const Projects = () => {
                 </IconButton>
               </Tooltip>
             }
-            MUI={
-              <Tooltip title="Material UI " arrow>
-                <IconButton>
-                  <SiMui className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
-
-
           />
           <Project_prop
             title="Stark Rockets"
@@ -177,7 +173,7 @@ const Projects = () => {
             css3={
               <Tooltip title="CSS 3" arrow>
                 <IconButton>
-                  <SiCss3 className="dark:text-slate-200 text-black"  />
+                  <SiCss3 className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }

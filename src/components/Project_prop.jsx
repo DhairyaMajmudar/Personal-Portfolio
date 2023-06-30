@@ -5,7 +5,7 @@ import { SlLink } from "react-icons/sl";
 const Project_prop = (props) => {
   return (
     <>
-      <div className=" border-[#00040f] shadow-xl  bg-[#e1e1e1] dark:bg-transparent dark:border-white border rounded-xl h-[370px] max-sm:h-[430px] p-7  max-sm:p-3  hover:bg-gradient-to-tl from-[#e1e1e1] to-[#fff] dark:from-[#00040F] dark:to-[#0B274C]">
+      <div className=" border-[#00040f] shadow-xl  bg-[#e1e1e1] dark:bg-transparent dark:border-white border rounded-xl h-[370px] max-sm:h-[450px] p-7  max-sm:p-3  hover:bg-gradient-to-tl from-[#e1e1e1] to-[#fff] dark:from-[#00040F] dark:to-[#0B274C]">
         <div className="HEADER">
           <div className="HEADING flex gap-7 max-sm:gap-0">
             <div className="p-3 ">
@@ -30,7 +30,6 @@ const Project_prop = (props) => {
                 {props.tailwindcss}
                 {props.react}
                 {props.vite}
-                {props.MUI}
               </div>
             </div>
           </div>
