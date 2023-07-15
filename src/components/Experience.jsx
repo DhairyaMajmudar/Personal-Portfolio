@@ -43,7 +43,7 @@ const Experience = () => {
               title="Sports Council, IIIT Kota"
               subtitle="Technical Team"
               date="June 2023 - present"
-              para="- Created webpages and removed bugs for the official Sports website of IIIT Kota."
+              para="- Worked collaboratively within a team to develop a captivating college sports website."
             />
             <Exp_prop
               img={GSSOC}
@@ -57,7 +57,7 @@ const Experience = () => {
               title="Hack The Chain Hackathon, IIIT Kota"
               subtitle="Organizing Team"
               date="March 2023"
-              para="- Helped in Organizing the first ever hybrid Hackathon of IIIT Kota organized by GDSC IIITK and Codebase Club. "
+              para="- Helped in Organizing the first hybrid Hackathon of IIIT Kota organized by GDSC IIITK and Codebase Club. "
             />
             <Exp_prop
               img={IITB}
