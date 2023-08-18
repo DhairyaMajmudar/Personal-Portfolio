@@ -10,6 +10,7 @@ import {
   IITB,
   Sports,
   IIITians,
+  GDSC,
 } from "../constants/Constant";
 
 const Experience = () => {
@@ -31,6 +32,13 @@ const Experience = () => {
             className="EXPERIENCE mt-16 grid gap-20 max-sm:gap-10 max-sm:grid-cols-1 grid-cols-3"
             data-aos="zoom-in-up"
           >
+            <Exp_prop
+              img={GDSC}
+              title="GDSC IIIT Kota"
+              subtitle="Web Development Lead"
+              date="August 2023 - present"
+              para="- Web Development Lead in Google Developers Student Club IIIT Kota"
+            />
             <Exp_prop
               img={IIITians}
               title="IIITians Network"

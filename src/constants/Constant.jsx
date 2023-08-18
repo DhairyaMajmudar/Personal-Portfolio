@@ -15,6 +15,7 @@ import GSSOC from "../assets/GSSoc.jpg";
 import IITB from "../assets/IITB.png";
 import Sports from "../assets/Sports_Club.png";
 import IIITians from "../assets/IIITians_Network.png";
+import GDSC from '../assets/GDSC.png'
 
 import GPT4 from "../assets/gpt4.jpg";
 import Portfolio from "../assets/portfolio.jpg";
@@ -44,4 +45,5 @@ export {
   Rocket,
   WellBeing,
   Game,
+  GDSC
 };
