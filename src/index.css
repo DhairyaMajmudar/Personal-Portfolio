@@ -3,12 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
-    overflow-x: hidden;
-    scroll-behavior: smooth;
+html {
+    @apply overflow-x-hidden scroll-smooth
 }
 
 body {
-   
+
     @apply dark:bg-[#00040f] bg-[#e2e2e2ab]
 }

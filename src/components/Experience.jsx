@@ -3,6 +3,7 @@ import Skills from "./Skills";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import IIIT_KOTA from "../assets/IIIT_Kota.png";
 
 import {
   Hackthechain,
@@ -40,11 +41,18 @@ const Experience = () => {
               para="- Web Development Lead in Google Developers Student Club IIIT Kota"
             />
             <Exp_prop
+              img={IIIT_KOTA}
+              title="Webteam Trainee, IIIT Kota"
+              subtitle="Trainee"
+              date="August 2023 - present"
+              para="- Webteam Trainee for the maintaining and developing the official website of IIIT Kota"
+            />
+            <Exp_prop
               img={IIITians}
               title="IIITians Network"
-              subtitle="Social Media Team"
+              subtitle="Tech Team Lead"
               date="April 2023 - present"
-              para="- Maintained Instagram and LinkedIn with an amazing team of IIITians across India."
+              para="- Worked collaboratively within a team to develop a captivating college social network website."
             />
             <Exp_prop
               img={Sports}
