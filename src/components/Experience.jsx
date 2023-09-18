@@ -1,3 +1,5 @@
+"use client"
+
 import Exp_prop from "./Exp_prop";
 import Skills from "./Skills";
 import AOS from "aos";

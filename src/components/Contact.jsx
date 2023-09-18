@@ -22,8 +22,8 @@ const Contact = () => {
               Dhairya Majmudar
             </h2>
             <p className="text-gray-600 dark:text-slate-400 leading-[30.8px] mt-7 max-w-[400px] max-sm:text-center">
-              GSSoC'23 | IIITians Network Social Media Team | Web Development
-              Enthusiast | IIIT Kota'26
+              Google DSC Web Dev Lead | GSSoC'23 | Technical Team Lead -
+              IIITians Network | IIIT Kota'26
             </p>
             <div className="SOCIALS text-[#00040f] dark:text-white text-2xl flex gap-7 mt-5 max-sm:justify-evenly">
               <a
