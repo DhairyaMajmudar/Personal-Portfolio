@@ -9,13 +9,16 @@ import Git from "../assets/Git.png";
 import Vite from "../assets/Vite.png";
 import TailwindCSS from "../assets/TailwindCSS.png";
 import react from "../assets/react.png";
+import Vue from "../assets/vue.png";
 
 import Hackthechain from "../assets/HackTheChainLogo.png";
 import GSSOC from "../assets/GSSoc.jpg";
 import IITB from "../assets/IITB.png";
 import Sports from "../assets/Sports_Club.png";
 import IIITians from "../assets/IIITians_Network.png";
-import GDSC from '../assets/GDSC.png'
+import GDSC from "../assets/GDSC.png";
+import KDE from "../assets/kde.png";
+import Oppia from "../assets/oppia.png";
 
 import GPT4 from "../assets/gpt4.jpg";
 import Portfolio from "../assets/portfolio.jpg";
@@ -35,6 +38,7 @@ export {
   react,
   Python,
   Javascript,
+  Vue,
   Hackthechain,
   GSSOC,
   IITB,
@@ -45,5 +49,7 @@ export {
   Rocket,
   WellBeing,
   Game,
-  GDSC
+  GDSC,
+  KDE,
+  Oppia,
 };

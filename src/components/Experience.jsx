@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Exp_prop from "./Exp_prop";
 import Skills from "./Skills";
@@ -14,6 +14,8 @@ import {
   Sports,
   IIITians,
   GDSC,
+  KDE,
+  Oppia,
 } from "../constants/Constant";
 
 const Experience = () => {
@@ -35,6 +37,20 @@ const Experience = () => {
             className="EXPERIENCE mt-16 grid gap-20 max-sm:gap-10 max-sm:grid-cols-1 grid-cols-3"
             data-aos="zoom-in-up"
           >
+            <Exp_prop
+              img={Oppia}
+              title="Oppia Foundation"
+              subtitle="LAcE Team Member"
+              date="November 2023 - present"
+              para="- Worked collabartively with developers from Russia and United States to remove the bugs, improving user experience."
+            />
+            <Exp_prop
+              img={KDE}
+              title="Season of KDE'24"
+              subtitle="Mentee"
+              date="January 2023 - present"
+              para="- SoK'24 mentee for the cantor project converting the documentation for several programming languages into QT Help files. "
+            />
             <Exp_prop
               img={GDSC}
               title="GDSC IIIT Kota"

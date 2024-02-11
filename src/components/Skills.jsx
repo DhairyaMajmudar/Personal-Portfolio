@@ -10,6 +10,7 @@ import {
   Javascript,
   CPP,
   C,
+  Vue
 } from "../constants/Constant";
 
 import AOS from "aos";
@@ -36,10 +37,11 @@ const Skills = () => {
           <Image img={Javascript}></Image>
           <Image img={react}></Image>
           <Image img={TailwindCSS}></Image>
-          <Image img={Vite}></Image>
+          <Image img={Vue}></Image>
           <Image img={CPP}></Image>
           <Image img={C}></Image>
           <Image img={Python}></Image>
+          <Image img={Vite}></Image>
           <Image img={Git}></Image>
           <Image img={Github}></Image>
         </div>
